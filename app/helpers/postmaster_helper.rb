@@ -1,0 +1,2 @@
+module PostmasterHelper
+end

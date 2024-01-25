@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  train_operator: one
+  price: 1
+  line: one
+  status: false
+
+two:
+  train_operator: two
+  price: 1
+  line: two
+  status: false
