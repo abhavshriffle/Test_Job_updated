@@ -13,7 +13,6 @@ parcel_owner2 = ParcelOwner.find_or_create_by(name: 'Owner2')
 parcel1 = Parcel.find_or_create_by(parcel_owner_id: parcel_owner1.id, weight: 1, volume: 20)
 parcel2 = Parcel.find_or_create_by(parcel_owner_id: parcel_owner2.id, weight: 0.5, volume: 5)
 
-#Seed offers
 offer1 = Offer.find_or_create_by(train_operator: train_operator1, price: 200, line: line1)
 offer2 = Offer.find_or_create_by(train_operator: train_operator2, price: 150, line: line2)
 offer3 = Offer.find_or_create_by(train_operator: train_operator1, price: 300, line: line3)
